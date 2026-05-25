@@ -1,27 +1,26 @@
-# AAKASH INSTITUTIONS Website
+# Aakash Institutions — Vercel Ready
 
-A distinct light-theme Vite React website for AAKASH INSTITUTIONS.
+This project has been converted from a TanStack Start / Cloudflare-style export into a standard Vite React single-page app for Vercel deployment.
 
-## Structure
-- Home: Hero, Trust, Services, Process, CTA, Footer
-- About: Hero, About, Value, CTA, Footer
-- Services: Hero, Services, FAQ, CTA, Footer
-- Contact: Hero, Contact, Footer
+## Local setup
 
-## Run locally
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## Production build
+
 ```bash
 npm run build
 ```
 
 ## Vercel settings
+
 - Framework Preset: Vite
+- Install Command: npm install
 - Build Command: npm run build
 - Output Directory: dist
-- Install Command: npm install
 - Root Directory: ./
+
+The `vercel.json` file includes SPA rewrites so `/about`, `/services`, and `/contact` work after deployment.
