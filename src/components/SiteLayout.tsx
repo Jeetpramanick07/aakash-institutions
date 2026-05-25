@@ -227,7 +227,10 @@ function Footer() {
 
       <div className="relative border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col md:flex-row justify-between gap-2 text-xs text-white/55">
-          <div>© {new Date().getFullYear()} Aakash Institutions. All rights reserved.</div>
+          <div>
+            © {new Date().getFullYear()} Aakash Institutions. All rights
+            reserved.
+          </div>
           <div>Built for serious learners.</div>
         </div>
       </div>
